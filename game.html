@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Game</title>
+	
+    <link rel="stylesheet" type="text/css" href="mturk.css">
+    <link rel="stylesheet" type="text/css" href="game.css">
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="mturk.js"></script>
+	<script src="game.js"></script>
+</head>
+
+
+<body>
+
+<div id="acceptHitWarning">Accept HIT to start playing.</div>
+
+<!-- Survey -->
+
+<form name="mturk_form"
+      id="mturk_form"
+      method="post"
+      action="">
+
+    <div id="gameBoard"></div>
+
+    <div id="rewardWrapper">
+        <span>Reward</span><br />
+        $<input id="reward" type="number" name="reward" step="0.001" min="0" max="2.00" value="0.000" readonly>
+    </div>
+
+    <div id="instructions">
+        Dry Safe<br />
+        Start Game<br />
+
+    </div>
+
+    <input type="hidden" id="numkeydowns" name="numkeydowns" value="0">
+    <input id="start" type="button" value="Start Game">
+    <br />
+    <br />
+    <input id="submitButton" type="submit">
+</form>
+
+</body>
+</html>

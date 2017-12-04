@@ -1,0 +1,9 @@
+.disabledForm {
+	pointer-events: none;
+	opacity: 0.4;
+}
+
+#acceptHitWarning {
+	color: red;
+	display: none;
+}
