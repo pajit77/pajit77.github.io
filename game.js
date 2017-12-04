@@ -1,6 +1,6 @@
 
 //Game board is provided
-//Game board is provided
+//Please git hub stop doing this to me and just work already
 //1s are blocks and 0s are free spaces
 //Each grid cell on the board is a square with dimension 50px
 var board = [[0,0,0,1,0,0],
