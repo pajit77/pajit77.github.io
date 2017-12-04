@@ -2,13 +2,13 @@
 //Game board is provided
 //1s are blocks and 0s are free spaces
 //Each grid cell on the board is a square with dimension 50px
-var board = [[0,0,0,0,0,0],
-             [0,0,0,1,1,1],
+var board = [[0,0,0,1,0,0],
+             [0,0,0,0,0,1],
+             [0,0,0,0,1,0],
              [0,0,0,0,0,0],
-             [0,0,0,0,0,0],
-             [1,1,1,0,0,0],
-             [0,0,0,0,0,0],
-             [0,0,0,0,0,0]];
+             [1,0,0,0,0,0],
+             [0,1,0,0,0,0],
+             [0,0,1,0,0,0]];
 
 var nCols = board[0].length;
 var nRows = board.length;
