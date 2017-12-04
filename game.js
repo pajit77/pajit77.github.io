@@ -89,7 +89,7 @@ $(document).ready(function () {
     crowdShipCell.css("top", crowdShipY+"px");
 
     gameBoard.append(crowdShipCell);
-    crowdShipCell.html("<img src='car1v2.jpg'/>"); //EO.jpg
+    crowdShipCell.html("<img src='car1v2.png'/>"); //EO.jpg
 
 
     //Create ship
